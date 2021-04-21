@@ -17,6 +17,7 @@
 		BF1AFCC1262F372100881F8D /* BasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1AFCC0262F372100881F8D /* BasicView.swift */; };
 		BF1AFCC6262F379000881F8D /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1AFCC5262F379000881F8D /* ContainerView.swift */; };
 		BF1AFCCB262F37A900881F8D /* HUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1AFCCA262F37A900881F8D /* HUDView.swift */; };
+		BFA1D2CC262FE35D00096667 /* MyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA1D2CB262FE35D00096667 /* MyContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		BF1AFCC0262F372100881F8D /* BasicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicView.swift; sourceTree = "<group>"; };
 		BF1AFCC5262F379000881F8D /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
 		BF1AFCCA262F37A900881F8D /* HUDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDView.swift; sourceTree = "<group>"; };
+		BFA1D2CB262FE35D00096667 /* MyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				BF1AFC8D262F35F000881F8D /* viewBuilderHUDApp.swift */,
 				BF1AFCCF262F37B900881F8D /* View */,
 				BF1AFCBB262F365100881F8D /* SFSymbols.swift */,
+				BFA1D2CB262FE35D00096667 /* MyContainer.swift */,
 				BF1AFC91262F35F300881F8D /* Assets.xcassets */,
 				BF1AFC96262F35F300881F8D /* Info.plist */,
 				BF1AFC93262F35F300881F8D /* Preview Content */,
@@ -285,6 +288,7 @@
 				BF1AFC8E262F35F000881F8D /* viewBuilderHUDApp.swift in Sources */,
 				BF1AFCBC262F365100881F8D /* SFSymbols.swift in Sources */,
 				BF1AFCC1262F372100881F8D /* BasicView.swift in Sources */,
+				BFA1D2CC262FE35D00096667 /* MyContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

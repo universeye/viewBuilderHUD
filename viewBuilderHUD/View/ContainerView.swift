@@ -9,7 +9,23 @@ import SwiftUI
 
 struct ContainerView: View {
     var body: some View {
-        Text("This is container view")
+        NavigationView {
+            VStack {
+                MyContainer {
+                    Text("This is container view")
+                    Text("This is the second line")
+                    Button(action: {}, label: {
+                        SFSymbols.star
+                    })
+                }
+                MyContainer(bgColor: .red, fgColor: .yellow) {
+                    Text("second Container")
+                    Rectangle()
+                        .frame(width: 200, height: 50)
+                }
+                .navigationTitle("Container View")
+            }
+        }
     }
 }
 
@@ -18,3 +34,4 @@ struct ContainerView_Previews: PreviewProvider {
         ContainerView()
     }
 }
+
